@@ -19,8 +19,8 @@ public double calularPerimetro(){
 	this.perimetro = 3*base;
 	return this.perimetro;
 }
-private double calculaArea() {
-	this.area=this.base*this.altura;
+public double calculaArea() {
+	this.area=(base*altura)/2;
 	return this.area;
 }
 
