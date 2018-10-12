@@ -30,4 +30,40 @@ public class circulo {
 	public void setRadio(Double radio) {
 		this.radio = radio;
 	}
+
+
+	public double getDiametro() {
+		return diametro;
+	}
+
+
+	public void setDiametro(double diametro) {
+		this.diametro = diametro;
+	}
+
+
+	public double getPerimetro() {
+		return perimetro;
+	}
+
+
+	public void setPerimetro(double perimetro) {
+		this.perimetro = perimetro;
+	}
+
+
+	public double getArea() {
+		return area;
+	}
+
+
+	public void setArea(double area) {
+		this.area = area;
+	}
+
+
+	public void setRadio(double radio) {
+		this.radio = radio;
+	}
+	
 }

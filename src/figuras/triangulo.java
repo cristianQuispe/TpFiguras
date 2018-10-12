@@ -37,5 +37,24 @@ public Double getAltura() {
 public void setAltura(Double altura) {
 	this.altura = altura;
 }
+public double getPerimetro() {
+	return perimetro;
+}
+public void setPerimetro(double perimetro) {
+	this.perimetro = perimetro;
+}
+public double getArea() {
+	return area;
+}
+public void setArea(double area) {
+	this.area = area;
+}
+public void setBase(double base) {
+	this.base = base;
+}
+public void setAltura(double altura) {
+	this.altura = altura;
+}
+
 
 }
