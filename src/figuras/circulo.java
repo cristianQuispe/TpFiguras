@@ -13,13 +13,16 @@ public class circulo {
 	}
 	
 	
-    public void calcularArea(Double a){
+    public double calcularArea(){
     	
-		this.area = 3.14*(a*a); 
+		this.area = 3.14*(radio*radio); 
+		return this.area;
 }
-	public void calularPerimetro(Double a){
+	public double calularPerimetro(){
 		
-		this.perimetro= 2*3.14*a;
+		this.perimetro= 2*3.14*radio;
+		
+		return this.perimetro;
 	}
 	public Double getRadio() {
 		return radio;
